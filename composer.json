@@ -1,0 +1,24 @@
+{
+  "name": "dawidmazurek/github-commit-status",
+  "description": "Package for changing commit build status",
+  "type": "library",
+  "require": {
+    "guzzlehttp/guzzle": "^6.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^5.2"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Dawid Mazurek",
+      "email": "dawid@dawidmazurek.pl"
+    }
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "DawidMazurek\\GithubCommitStatus\\": "src/"
+    }
+  }
+}
